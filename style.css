@@ -1,0 +1,19 @@
+#board {
+  height: 420px;
+  width: 420px;
+  border: 2px solid black;
+  padding: 25px;
+}
+
+#board div {
+  display: inline-block;
+  height: 120px;
+  width: 120px;
+  padding: 3px;
+  margin: 3px;
+  border: 2px solid black;
+}
+
+.filled {
+  background-color: grey;
+}
